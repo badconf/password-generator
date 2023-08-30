@@ -7,7 +7,7 @@ This is a simple Go program that generates random strings based on various optio
 To compile the program, make sure you have Go installed on your system. Then, run the following command in your terminal:
 
 ```bash
-go build main.go
+go build pwlist.go
 ```
 
 ## Usage
@@ -24,7 +24,7 @@ The program generates random strings with customizable options. Here are the ava
 Example usage:
 
 ```bash
-./main -n 12 -a -1 -q 5
+./pwlist -n 12 -a -1 -q 5
 ```
 
 This command generates 5 random strings, each with a length of 12 characters, including lowercase letters and numbers.
